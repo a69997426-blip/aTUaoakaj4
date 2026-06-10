@@ -1,0 +1,27 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-white">
+    <nav class="p-4 bg-gray-900 border-b border-gray-800">
+        <h1 class="text-xl font-bold">ویدیو کلاب من</h1>
+    </nav>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+        <div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg">
+            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/k1sq2HTSFUw" frameborder="0" allowfullscreen></iframe>
+            <div class="p-4">
+                <h2 class="font-bold">عنوان ویدیوی اول</h2>
+            </div>
+        </div>
+
+        <div class="bg-gray-900 rounded-xl overflow-hidden shadow-lg">
+            <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/qtOUmzhuZzE" frameborder="0" allowfullscreen></iframe>
+            <div class="p-4">
+                <h2 class="font-bold">عنوان ویدیوی دوم</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
